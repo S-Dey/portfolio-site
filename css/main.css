@@ -1,4 +1,33 @@
 * {
-    background: white;
-    height: 100%;
+   box-sizing: border-box;
+}
+
+.top-line {
+    border-bottom: solid #F3EFEE;
+}
+
+.title-text {
+    text-align: right;
+}
+
+.center-image {
+    margin: auto;
+    text-align: center;
+}
+
+.grid {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    text-align: left;
+    border-radius: 50%;
 }
