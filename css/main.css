@@ -20,37 +20,38 @@
    ========================================================================== */
 
 body {
-    padding: 5vh;
     font: 300 14px 'Lato', sans-serif;
-    color: #666756; /* color: #747704; */
-    background: #fff;
     font-weight: 300;
+    padding: 5vh;
     padding-left: 1vh;
-    padding-right: 1vh;
+    padding-right: 1vh;    
+    color: #666756;
+    background: #fff;    
+}
+
+img {
+    max-width: 100%;
 }
 
 hr {
     border-top: 4px solid #bbb;
 }
 
-img, embed, object, video {
-    max-width: 100%;
-}
-
 /* ==========================================================================
    1. HELPERS
    ========================================================================== */
 
-.text-thin {
-    font-weight: 100;
+.border {
+    border: 1px solid #BCBBBB;
 }
 
 .text-muted {
+    /* Overriding text-muted property of Bootstrap */
     color: #BBB;
 }
 
-.border {
-    border: 1px solid #BCBBBB;
+.text-thin {
+    font-weight: 100;
 }
 
 /* ==========================================================================
@@ -71,7 +72,7 @@ img, embed, object, video {
 .profile-caption {
     margin: 5px;
     font-size: 1.429em;
-    -webkit-margin-bottom-collapse: discard;
+    -webkit-margin-bottom-collapse: discard;  /* Margin is discarded if it is adjacent to another element with a margin. */
 }
 
 .profile-picture {
