@@ -57,7 +57,7 @@ img, embed, object, video {
    2. PROFILE
    ========================================================================== */
 
-.profile-caption {
+.profile-text {
     margin-top: 10px;
     text-align: right;
     text-transform: uppercase;
@@ -68,7 +68,7 @@ img, embed, object, video {
     font-size: 4.286em;
 }
 
-.profile-job {
+.profile-caption {
     margin: 5px;
     font-size: 1.429em;
     -webkit-margin-bottom-collapse: discard;
@@ -99,7 +99,7 @@ img, embed, object, video {
         margin-left:1em;
     }
 
-    .profile-job  {
+    .profile-caption  {
         margin-right:.9em;
         padding-right: 1.5vh;
     }
@@ -108,7 +108,7 @@ img, embed, object, video {
         padding-right: 5vh;
     }
 
-    .connect-bar {
+    .social-icons {
         padding-right: 3%;
     }
 }
@@ -119,7 +119,7 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
 
 @media only screen and (min-width: 992px) and (max-width: 1199px)  {
 
-    .profile-job {
+    .profile-caption {
         padding-right: 1.5vh;
     }
     .profile-name {
@@ -139,7 +139,7 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
         margin-left:3em;
     }
 
-    .profile-job  {
+    .profile-caption  {
         text-align: right;
         padding-right: 1.5vh;
     }
@@ -174,11 +174,11 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
         padding-right: .1em;
     }
 
-    .profile-job  {
+    .profile-caption  {
         text-align: center;
     }
 
-    .connect-bar {
+    .social-icons {
         margin-top: inherit;
         padding-right: 42%;
     }
@@ -206,11 +206,11 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
         text-align: center;
     }
 
-    .profile-job  {
+    .profile-caption  {
         text-align: center;
     }
 
-    .connect-bar {
+    .social-icons {
         margin-top: inherit;
         padding-right: 40%;
     }
@@ -239,12 +239,12 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
         text-align: center;
     }
 
-    .profile-job {
+    .profile-caption {
         font-size:1.8em;
         text-align: center;
     }
 
-    .connect-bar {
+    .social-icons {
         padding-right: 39%;
     }
 }
@@ -272,11 +272,11 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
         text-align: center;
     }
 
-    .profile-job  {
+    .profile-caption  {
         text-align: center;
     }
 
-    .connect-bar {
+    .social-icons {
         padding-right: 36%;
         margin-top: 1vh;
     }
@@ -290,7 +290,7 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
 2.2 Connect Icons Bar
    ========================================================================== */
 
-.connect-bar {
+.social-icons {
     margin-top: 1.75vh;
     margin-bottom: 0;
     list-style: none;
