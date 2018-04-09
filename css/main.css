@@ -65,13 +65,13 @@ hr {
 }
 
 .profile-name {
+    font-size: 4.285em;
     margin: 0;
-    font-size: 4.286em;
 }
 
 .profile-caption {
+    font-size: 1.428em;
     margin: 5px;
-    font-size: 1.429em;
     -webkit-margin-bottom-collapse: discard;  /* Margin is discarded if it is adjacent to another element with a margin. */
 }
 
@@ -96,17 +96,17 @@ hr {
 
     .profile-picture {
         display: inline-block;
+        margin-left: 1em;
         width: 28%;
-        margin-left:1em;
+    }
+
+    .profile-name {
+        padding-right: 5vh;
     }
 
     .profile-caption  {
         margin-right:.9em;
         padding-right: 1.5vh;
-    }
-
-    .profile-name {
-        padding-right: 5vh;
     }
 
     .social-icons {
@@ -137,19 +137,19 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
     .profile-picture {
         display: inline-block;
         width: 30%;
-        margin-left:3em;
+        margin-left: 3em;
+    }
+
+    .profile-name  {
+        font-size: 3em;
+        text-align: right;
+        padding-right: 2vh;
     }
 
     .profile-caption  {
         text-align: right;
         padding-right: 1.5vh;
-    }
-
-    .profile-name  {
-        text-align: right;
-        font-size: 3em;
-        padding-right: 2vh;
-    }
+    }   
 }
 
 /* ==========================================================================
