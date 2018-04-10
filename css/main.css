@@ -282,7 +282,7 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
         margin-top: 1vh;
     }
 
-    .project-image {
+    .project-picture {
         display:flex;
     }
 }
@@ -343,7 +343,7 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
     text-transform: uppercase;
 }
 
-.project-image {
+.project-picture {
     object-fit: contain;
 }
 
