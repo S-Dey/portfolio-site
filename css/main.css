@@ -1,22 +1,5 @@
-/**
- * TABLE OF CONTENTS:
- *
- *  0. GLOBAL
- *  1. HELPERS
- *  2. PROFILE
-		 2.1 RESPONSIVE
-		 *    - 2.1.1 LARGE DESKTOPS & WIDE SCREENS
-		 *    - 2.1.2  LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
-		 *    - 2.1.3  MEDIUM DEVICES, LANDSCAPE TABLETS AND LAPTOPS
-		 *    - 2.1.4  SMALL DEVICES, TABLETS 
-		 *    - 2.1.5  EXTRA SMALL DEVICES, TABLETS PORTRAIT
-		 *    - 2.1.6  CUSTOM, IPHONE RETINA
-		 2.2 CONNECT BAR
- *  3. PROJECTS
- *  4. FOOTER
-
 /* ==========================================================================
-   0. GLOBAL
+   1. GLOBAL PROPERTIES
    ========================================================================== */
 
 body {
@@ -38,7 +21,7 @@ hr {
 }
 
 /* ==========================================================================
-   1. HELPERS
+   2. PAGE STYLERS
    ========================================================================== */
 
 .border {
@@ -55,13 +38,13 @@ hr {
 }
 
 /* ==========================================================================
-   2. PROFILE
+   3. PROFILE PROPERTIES
    ========================================================================== */
 
 .profile-text {
+    text-transform: uppercase;
     margin-top: 10px;
     text-align: right;
-    text-transform: uppercase;
 }
 
 .profile-name {
@@ -78,9 +61,70 @@ hr {
 .profile-picture {
     width: 25%;
     border-radius: 50%;
-    margin-top:5px;
+    margin-top: 5px;
 }
 
+/* ==========================================================================
+    4. SOCIAL ICONS
+   ========================================================================== */
+
+.social-icons {
+    display: inline-flex;
+    margin-top: 1.75vh;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+/* ==========================================================================
+   5. HERO IMAGE
+   ========================================================================== */
+
+.hero-image {
+    display: block;
+    width: 100%;
+}
+
+/* ==========================================================================
+   6. PROJECT PROPERTIES
+   ========================================================================== */
+
+.header-featured-work {
+    margin-top: 5.5vh;
+    padding-bottom: 3vh;
+    padding-left: 3vh;
+    color: #bbb;
+}
+
+.project {
+    text-align: center;
+}
+
+.project-title {
+    color: #666756;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+}
+
+.project-subtitle {
+    color: #666756;
+    letter-spacing: .5px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.project-url {
+    font-size: .75em;
+    text-transform: uppercase;
+    color: #666756;    
+}
+
+.project-picture {
+    object-fit: contain;
+}
+
+/* Add a shadow effect when the mouse is hovered on a project. */
 .add-shadow:hover {
     background-color: #FFF;
     cursor: pointer;
@@ -89,11 +133,21 @@ hr {
 }
 
 /* ==========================================================================
-2.1.1 RESPONSIVE: LARGE DESKTOPS & WIDE SCREENS
+   7. FOOTER
    ========================================================================== */
 
-@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+.footer {
+    text-align: center;
+    font-size: 1.143em;
+    margin-top: 50px;
+    font-weight: 400;    
+}
 
+/* ==========================================================================
+   8.1 RESPONSIVE LAYOUT: LARGE DESKTOPS AND WIDE SCREENS
+   ========================================================================== */
+
+   @media only screen and (min-width: 1200px) and (max-width: 1300px) {
     .profile-picture {
         display: inline-block;
         margin-left: 1em;
@@ -105,7 +159,7 @@ hr {
     }
 
     .profile-caption  {
-        margin-right:.9em;
+        margin-right: .9em;
         padding-right: 1.5vh;
     }
 
@@ -115,11 +169,10 @@ hr {
 }
 
 /* ==========================================================================
-RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
+    8.2. RESPONSIVE LAYOUT: LANDSCAPE TABLETS
    ========================================================================== */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px)  {
-
     .profile-caption {
         padding-right: 1.5vh;
     }
@@ -129,15 +182,14 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
 }
 
 /* ==========================================================================
-2.1.2 RESPONSIVE: MEDIUM DEVICES, LANDSCAPE TABLETS AND LAPTOPS
+    8.3. RESPONSIVE LAYOUT: MEDIUM DEVICES, LANDSCAPE TABLETS, AND LAPTOPS
    ========================================================================== */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
     .profile-picture {
         display: inline-block;
-        width: 30%;
         margin-left: 3em;
+        width: 30%;
     }
 
     .profile-name  {
@@ -153,11 +205,10 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
 }
 
 /* ==========================================================================
-2.1.3 RESPONSIVE: SMALL DEVICES, TABLETS
+    8.4. RESPONSIVE LAYOUT: SMALL DEVICES AND TABLETS
    ========================================================================== */
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-
     .profile {
         text-align: center;
     }
@@ -186,25 +237,24 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
 }
 
 /* ==========================================================================
-2.1.4 RESPONSIVE: SMALL DEVICES, TABLETS PORTRAIT
+    8.5. RESPONSIVE: SMALLER DEVICES AND TABLETS IN PORTRAIT MODE
    ========================================================================== */
 
 @media only screen and (min-width: 481px) and (max-width: 575px) {
-
     .profile {
         text-align: center;
     }
 
     .profile-picture {
         display: block;
+        width: 20%;
         margin-right: auto;
         margin-left: auto;
-        width: 20%;
     }
 
     .profile-name {
-        font-size: 2.8em;
         text-align: center;
+        font-size: 2.8em;
     }
 
     .profile-caption  {
@@ -212,18 +262,16 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
     }
 
     .social-icons {
-        margin-top: inherit;
         padding-right: 40%;
+        margin-top: inherit;
     }
 }
 
 /* ==========================================================================
-   2.1.5 RESPONSIVE: EXTRA SMALL DEVICES, PHONES
+   8.6. RESPONSIVE LAYOUT: EXTRA-SMALL DEVICES AND PHONES
    ========================================================================== */
 
-
 @media only screen and (max-width: 480px) {
-
     .profile {
         text-align: center;
     }
@@ -241,7 +289,7 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
     }
 
     .profile-caption {
-        font-size:1.8em;
+        font-size: 1.8em;
         text-align: center;
     }
 
@@ -251,26 +299,25 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
 }
 
 /* ==========================================================================
-2.1.6 RESPONSIVE: CUSTOM, IPHONE RETINA
+    8.7. RESPONSIVE LAYOUT: iPhone Retina
    ========================================================================== */
 
 @media only screen and (max-width: 360px) {
-
     .profile {
         text-align: center;
     }
 
     .profile-picture {
         display: block;
+        width: 19%;
         margin-right: auto;
         margin-left: auto;
-        width: 19%;
     }
 
     .profile-name {
-        font-size: 2em;
-        display: block;
         text-align: center;
+        font-size: 2em;
+        display: block;        
     }
 
     .profile-caption  {
@@ -285,75 +332,4 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
     .project-picture {
         display:flex;
     }
-}
-
-/* ==========================================================================
-2.2 Connect Icons Bar
-   ========================================================================== */
-
-.social-icons {
-    margin-top: 1.75vh;
-    margin-bottom: 0;
-    list-style: none;
-    display: inline-flex;
-}
-
-/* ==========================================================================
-   3. Main Image
-   ========================================================================== */
-
-.hero-img {
-    display: block;
-    width: 100%;
-}
-
-/* ==========================================================================
-   4. PROJECTS
-   ========================================================================== */
-
-.header-featured-work {
-    color: #bbb;
-    margin-top: 5.5vh;
-    padding-bottom: 3vh;
-    padding-left:3vh;
-}
-
-.project {
-    text-align: center;
-}
-
-.project-title {
-    color: #666756;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: normal;
-}
-
-.project-subtitle {
-    color: #666756;
-    letter-spacing: .5px;
-    text-align: center;
-    margin-top: 0px;
-}
-
-.project-url {
-    font-size: .75em;
-    color: #666756;
-    text-transform: uppercase;
-}
-
-.project-picture {
-    object-fit: contain;
-}
-
-/* ==========================================================================
-   5. FOOTER
-   ========================================================================== */
-
-.footer {
-    margin-top: 50px;
-    font-size: 1.143em;
-    font-weight: 400;
-    text-align: center;
 }
