@@ -311,7 +311,7 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
    4. PROJECTS
    ========================================================================== */
 
-.featured-work-header {
+.header-featured-work {
     color: #bbb;
     margin-top: 5.5vh;
     padding-bottom: 3vh;
@@ -330,14 +330,14 @@ RESPONSIVE: LANDSCAPE TABLETS & MEDIUM TO LARGE SCREENS
     font-weight: normal;
 }
 
-.project-title-subhead {
+.project-subtitle {
     color: #666756;
     letter-spacing: .5px;
     text-align: center;
     margin-top: 0px;
 }
 
-.project-link {
+.project-url {
     font-size: .75em;
     color: #666756;
     text-transform: uppercase;
