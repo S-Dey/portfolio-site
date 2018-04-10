@@ -109,13 +109,13 @@ hr {
 
 .project-subtitle {
     color: #666756;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
     text-align: center;
     margin-top: 0px;
 }
 
 .project-url {
-    font-size: .75em;
+    font-size: 0.75em;
     text-transform: uppercase;
     color: #666756;    
 }
@@ -159,7 +159,7 @@ hr {
     }
 
     .profile-caption  {
-        margin-right: .9em;
+        margin-right: 0.9em;
         padding-right: 1.5vh;
     }
 
@@ -223,7 +223,7 @@ hr {
     .profile-name {
         text-align: center;
         font-size: 3em;
-        padding-right: .1em;
+        padding-right: 0.1em;
     }
 
     .profile-caption  {
