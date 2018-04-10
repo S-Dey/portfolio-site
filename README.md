@@ -21,8 +21,8 @@ This Web page displays a portfolio of my projects. It is basically a conversion 
 Here is a breakdown of principal files:
 
   - `index.html` - The main HTML Web page.
-  - `main.css` - This hosts the CSS for rendering the Web page.
-  - `img/` - This directory hosts al the images.
+  - `main.css` - This file contains CSS rules for the Web page.
+  - `img/` - This directory hosts all the images.
   - `LICENSE` - Contains the license terms.
 
 ## Frameworks Used
