@@ -30,8 +30,8 @@ Here is a breakdown of principal files of this project:
 
 ## Frameworks Used
 In this project, the following frameworks have been used:
-   1. Bootstrap v4.0.0.
-   2. Font Awesome.
+   1. **Bootstrap v4.0.0**: For basic layout of the Web page.
+   2. **Font Awesome**: For social media icons, such as GitHub, Twitter, and Linkedin. 
 
 ## Contact Information
 If you have any queries or issues to report, you can contact me on [Twitter](https://twitter.com/SDey_96).
