@@ -55,7 +55,6 @@ hr {
 .profile-caption {
     font-size: 1.428em;
     margin: 5px;
-    -webkit-margin-bottom-collapse: discard;  /* Margin is discarded if it is adjacent to another element with a margin. */
 }
 
 .profile-picture {
@@ -143,193 +142,26 @@ hr {
     font-weight: 400;    
 }
 
-/* ==========================================================================
-   8.1 RESPONSIVE LAYOUT: LARGE DESKTOPS AND WIDE SCREENS
-   ========================================================================== */
 
-   @media only screen and (min-width: 1200px) and (max-width: 1300px) {
-    .profile-picture {
-        display: inline-block;
-        margin-left: 1em;
-        width: 28%;
-    }
-
-    .profile-name {
-        padding-right: 5vh;
-    }
-
-    .profile-caption  {
-        margin-right: 0.9em;
-        padding-right: 1.5vh;
-    }
-
-    .social-icons {
-        padding-right: 3%;
-    }
-}
-
-/* ==========================================================================
-    8.2. RESPONSIVE LAYOUT: LANDSCAPE TABLETS
-   ========================================================================== */
-
-@media only screen and (min-width: 992px) and (max-width: 1199px)  {
-    .profile-caption {
-        padding-right: 1.5vh;
-    }
-    .profile-name {
-        padding-right: 2vh;
-    }
-}
-
-/* ==========================================================================
-    8.3. RESPONSIVE LAYOUT: MEDIUM DEVICES, LANDSCAPE TABLETS, AND LAPTOPS
-   ========================================================================== */
+/*  ==========================================================================
+    8 RESPONSIVE LAYOUT: MEDIUM DEVICES, LANDSCAPE TABLETS, AND LAPTOPS
+    ========================================================================== */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .profile-picture {
-        display: inline-block;
-        margin-left: 3em;
-        width: 30%;
-    }
+ .profile-picture {
+     display: inline-block;
+     margin-left: 3em;
+     width: 30%;
+ }
 
-    .profile-name  {
-        font-size: 3em;
-        text-align: right;
-        padding-right: 2vh;
-    }
+ .profile-name  {
+     font-size: 3em;
+     text-align: right;
+     padding-right: 2vh;
+ }
 
-    .profile-caption  {
-        text-align: right;
-        padding-right: 1.5vh;
-    }   
-}
-
-/* ==========================================================================
-    8.4. RESPONSIVE LAYOUT: SMALL DEVICES AND TABLETS
-   ========================================================================== */
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    .profile {
-        text-align: center;
-    }
-
-    .profile-picture {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 20%;
-    }
-
-    .profile-name {
-        text-align: center;
-        font-size: 3em;
-        padding-right: 0.1em;
-    }
-
-    .profile-caption  {
-        text-align: center;
-    }
-
-    .social-icons {
-        margin-top: inherit;
-        padding-right: 42%;
-    }
-}
-
-/* ==========================================================================
-    8.5. RESPONSIVE: SMALLER DEVICES AND TABLETS IN PORTRAIT MODE
-   ========================================================================== */
-
-@media only screen and (min-width: 481px) and (max-width: 575px) {
-    .profile {
-        text-align: center;
-    }
-
-    .profile-picture {
-        display: block;
-        width: 20%;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .profile-name {
-        text-align: center;
-        font-size: 2.8em;
-    }
-
-    .profile-caption  {
-        text-align: center;
-    }
-
-    .social-icons {
-        padding-right: 40%;
-        margin-top: inherit;
-    }
-}
-
-/* ==========================================================================
-   8.6. RESPONSIVE LAYOUT: EXTRA-SMALL DEVICES AND PHONES
-   ========================================================================== */
-
-@media only screen and (max-width: 480px) {
-    .profile {
-        text-align: center;
-    }
-
-    .profile-picture {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 20%;
-    }
-
-    .profile-name {
-        font-size: 2em;
-        text-align: center;
-    }
-
-    .profile-caption {
-        font-size: 1.8em;
-        text-align: center;
-    }
-
-    .social-icons {
-        padding-right: 39%;
-    }
-}
-
-/* ==========================================================================
-    8.7. RESPONSIVE LAYOUT: iPhone Retina
-   ========================================================================== */
-
-@media only screen and (max-width: 360px) {
-    .profile {
-        text-align: center;
-    }
-
-    .profile-picture {
-        display: block;
-        width: 19%;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .profile-name {
-        text-align: center;
-        font-size: 2em;
-        display: block;        
-    }
-
-    .profile-caption  {
-        text-align: center;
-    }
-
-    .social-icons {
-        padding-right: 36%;
-        margin-top: 1vh;
-    }
-
-    .project-picture {
-        display:flex;
-    }
+ .profile-caption  {
+     text-align: right;
+     padding-right: 1.5vh;
+ }   
 }
