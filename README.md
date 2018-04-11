@@ -26,7 +26,7 @@ A demo of this project can be found [here](https://sdey96.github.io/udacity-port
 Here is a breakdown of principal files of this project:
 
   - `index.html` - The main HTML Web page.
-  - `main.css` - This file contains CSS rules for the Web page.
+  - `main.css` - This file contains the CSS rules for the Web page.
 
 ## Frameworks Used
 In this project, the following frameworks have been used:
