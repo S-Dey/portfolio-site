@@ -23,12 +23,10 @@ A demo of this project can be found [here](https://sdey96.github.io/udacity-port
 └── README.md
 ```
 
-Here is a breakdown of principal files:
+Here is a breakdown of principal files of this project:
 
   - `index.html` - The main HTML Web page.
   - `main.css` - This file contains CSS rules for the Web page.
-  - `img/` - This directory hosts all the images.
-  - `LICENSE` - Contains the license terms.
 
 ## Frameworks Used
 In this project, the following frameworks have been used:
