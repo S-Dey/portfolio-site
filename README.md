@@ -5,7 +5,7 @@ This Webpage displays a portfolio of my projects. It is basically a conversion o
 It has been developed as part of Udacity's [Full Stack Web Developer Nanodegree](https://in.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
 
 ## Demo
-A demo of this project can be found [here](https://sdey96.github.io/udacity-portfolio-site/).
+A demo of this project can be found [here](https://sdey96.github.io/udacity-portfolio-site/index.html).
 
 ## Directory Structure
 ```
